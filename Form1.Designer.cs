@@ -72,10 +72,11 @@
             this.przycisk_start.TabIndex = 3;
             this.przycisk_start.Text = "Start";
             this.przycisk_start.UseVisualStyleBackColor = true;
+            this.przycisk_start.Click += new System.EventHandler(this.przycisk_start_Click);
             // 
             // przycisk_stop
             // 
-            this.przycisk_stop.Location = new System.Drawing.Point(483, 292);
+            this.przycisk_stop.Location = new System.Drawing.Point(473, 292);
             this.przycisk_stop.Name = "przycisk_stop";
             this.przycisk_stop.Size = new System.Drawing.Size(199, 72);
             this.przycisk_stop.TabIndex = 4;
